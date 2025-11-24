@@ -8,16 +8,62 @@ It shows how your savings grow when you slowly increase your SIP each year also 
 This program uses various concepts of python such as loops,if,etc and also few basic Python functions that help to take user input and compute the final results.
 # Working of the project
 1)The program first takes input of a starting SIP amount, then yearly step-up, investment duration, and the expected return. 
+
 2)Then, it increases SIP amount every year according to step-up percentage.
+
 3)Finally the user gets the total value of the investment.
 # Testing
 To test the we inputed different SIP amounts, step-up percentages, durations, and return rates and checked whether the SIP increases correctly every year and cross checked the result or the final amount with the zerodha sip calculator.
 
-Example: Sip amount-1000
-         Years-10
-         Rate of return-12%
-         Step-up - 10%
-         Final value-Rs.337432
+Example 1:
+Enter amount:1000
+
+Enter stepup percent:10
+
+Enter number of years:10
+
+Enter expected rate of return:10
+
+Invested: 191249
+
+Profit amount: 113336
+
+Final amount: 304585
+
+Example 2:
+
+Enter amount:20000
+
+Enter stepup percent:10
+
+Enter number of years:20
+
+Enter expected rate of return:15
+
+Invested: 13745999
+
+Profit amount: 41926623
+
+Final amount: 55672623
+
+Example 3:
+
+Enter amount:100000
+
+Enter stepup percent:15
+
+Enter number of years:25
+
+Enter expected rate of return:15
+
+Invested: 255351620
+
+Profit amount: 788947247
+
+Final amount: 1044298868
+
+
+
 
 
 
